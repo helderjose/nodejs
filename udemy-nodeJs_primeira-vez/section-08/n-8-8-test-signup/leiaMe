@@ -1,0 +1,4 @@
+----- explicação do exemplo -----
++ tests/server.test.js
+    - pesquise por "describe('GET /users/me'"
+    - pesquise por "describe('POST /users'"

@@ -1,0 +1,9 @@
+===== comandos do exemplo ======
+npm install
+node server/server.js
+
+===== explicação do exemplo =====
+- server.js
+validação das variáveis do objeto
+http://mongoosejs.com/docs/validation.html
+http://mongoosejs.com/docs/guide.html

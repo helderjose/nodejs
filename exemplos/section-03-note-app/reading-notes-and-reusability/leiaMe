@@ -1,0 +1,25 @@
+Nesse exemplo:
+Método para pesquisar uma note.
+
++ app.js
++ notes.js
+
+
+Execução do projeto:
+
+npm install
+
+insere notes:
+node app.js add --title="to buy" --body="food" &&
+node app.js add --title="to buy from store" --body="food" &&
+node app.js add --title="secret" --body="my secret" &&
+node app.js add --title="secret2" --body="my secret 2"
+
+read note:
+
+node app.js read --title="something here"   //not found (não tem uma note com esse título)
+node app.js read --title="to buy"
+
+
+
+

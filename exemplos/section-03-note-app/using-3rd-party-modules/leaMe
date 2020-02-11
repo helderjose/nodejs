@@ -1,0 +1,19 @@
+npm install
+node app.js
+
+lodash
+https://www.npmjs.com/package/lodash
+https://lodash.com/docs
+Olhar o arquivo npm-modules
+
+O que foi feito nesse exemplo:
+- Criou o package.json;
+- Instalou o module lodash e usou no app.js
+
+
+Comandos para criar o projeto do zero:
+npm init -y     // cria o package.json com yes for all questions.
+npm install lodash --save   //--save atualiza o arquivo package.json
+npm install   //só se o arquivo package.json já existir
+
+no vídeo ele usou o lodash@4.13.1

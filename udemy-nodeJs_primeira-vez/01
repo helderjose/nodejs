@@ -1,0 +1,7 @@
+node
+console.log('Hello world!');
+
+global	//similar ao "window"
+process	//similar ao "document"
+process.exit(0);	//sai do ambiente node.
+node arquivo.js

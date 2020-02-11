@@ -1,0 +1,106 @@
+Nesse exemplo:
+Debug pelo terminal. (dê preferência para o próximo exemplo)
+Próximo exemplo ensida debugar pelo chrome.
+
+node v8.1.2 or greater
+node -v
+nvm install v8.1.2
+nvm alias default v8.1.2
+
+https://nodejs.org/en/docs/inspector
+
++ playground/debugging.js
++ app.js
+    - "debugger;"
+
+debugger; //break point, começa debugar aqui, se tirar, debuga desde o começo
+
+
+
+
+teste: Execute os seguintes comandos
+
+
+node playground/debugging.js  //nada vai acontecer
+node inspect playground/debugging.js    //vai abilitar o modo debug>
+debug> c    //continue until debugger; line
+debug> n    // next (is going to move on to the very next statement). (passa linha por linha)
+debug> c    //continue until your program completes.
+ctrl + c    // sai do modo debug.
+--------------------------------------------------
+
+
+node playground/debugging.js  //nada vai acontecer
+node inspect playground/debugging.js    //vai abilitar o modo debug>
+debug> list(10)    //exibe 10 linhas. Desde o começo do arquivo (antes da linha debugger;).
+debug> c    //continue until your program completes.
+ctrl + c    // sai do modo debug.
+--------------------------------------------------
+
+
+node inspect playground/debugging.js
+debug> c        // continue until debugger; line
+debug> repl     // repl mode (Read Evaluate Print Loop)
+> person        // exibe o valor da variável person
+> person.age    // exibe o valor da variável
+> person.age + 100
+> person
+> person.age = person.age + 100
+> person
+ctrl + c    // sai do repl mode e volta para o debug mode
+debug> c    // continua até terminar o código
+ctrl + c    // sai do modo debug.
+--------------------------------------------------
+
+
+use a palavara chave "debugger;" no arquivo debugging.js exetucte os
+seguintes comandos:
+
+node inspect playground/debugging.js
+debug> c
+debug> repl
+person      // imprime a variável person.
+person.age + 100
+person
+person.age = person.age + 100
+person
+ctrl + c
+--------------------------------------------------
+
+
+inspecionar o app.js   // descomente a linha do debugger no app.js
+node inspect app.js add --title="debug teste" --body="Some body here"
+debug> c    // ir para a linha debugger;
+debug> n    // use o "n" várias vezes, verá que não vai para o arquivo notes.js
+debug> c    // continua até terminar o código
+ctrl + c
+delete o arquivo notes-data.json
+
+obs: Para ir ao arquivo notes.js, insira um debugger; no "addNote" do notes.js
+--------------------------------------------------
+
+
+inspecionar o app.js   // descomente a linha do debugger no app.js
+node inspect app.js add --title="debug teste" --body="Some body here"
+debug> c    // ir para a linha debugger;
+debug> repl
+> command   // add
+> note      // undefined
+ctrl + c
+debug> n
+debug> n
+debug> repl
+> note
+ctrl + c
+debug> c
+ctrl + c
+delete o arquivo notes-data.json
+// comente a linha do debugger no app.js
+--------------------------------------------------
+
+
+
+Quando salvar e o nodemon reiniciar a aplicação, já vai fazer o debug
+
+nodemon inspect app.js read --title="to buy"
+debug> c

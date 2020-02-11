@@ -1,0 +1,14 @@
+https://www.npmjs.com/package/live-server
+
+This is a little development server with live reload capability. Use it for hacking your HTML/JavaScript/CSS files, but not for deploying the final site.
+Olhar o resto da explicação no site, bem interessante (servidor http com live reload).
+
+
+
+npm install -g live-server
+
+
+Live-server sem o package Json
+npm install live-server
+./node_modules/live-server/live-server.js --help
+./node_modules/live-server/live-server.js --host=localhost --port=8080

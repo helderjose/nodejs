@@ -1,0 +1,16 @@
+Comandos para testar:
+
+node app.js --help
+node app.js --h
+node app.js -a '1302 lombard street'
+
+
+
+
+node
+> encodeURIComponent('1301 lombard street philadelphia')
+> decodeURIComponent('1301%20lombard%20street%20philadelphia')
+ctrl + c
+
+node app.js -a '1614 south broad street philadelphia'
+node app.js -a 'chalfont pa'

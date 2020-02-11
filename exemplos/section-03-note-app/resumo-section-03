@@ -1,0 +1,100 @@
+-------------------------
+----- using-require -----
+-------------------------
+const fs = require('fs');
+
+----------------------------------------
+----- requiring-your-own-files -----
+----------------------------------------
+Cria um module e usa no app.js
+
+
+-----------------------------------
+----- using-3rd-party-modules -----
+-----------------------------------
+Instalou o lodash e usou no app.js
+
+
+----------------------------------------
+----- restarting-app-with-nodemon -----
+----------------------------------------
+Usa o nodemons para reiniciar o arquivo quando salva.
+
+
+-----------------------------------
+----- getting-input-from-user -----
+-----------------------------------
+Console aplication com "process.argv"
+
+
+----------------------------------------
+----- simplified-input-with-yargs -----
+----------------------------------------
+Console application com yargs para facilitar a passagem de parâmetros.
+
+
+------------------------------
+----- working-with-json -----
+------------------------------
+Grava o JSON no arquivo, lê o arquivo e imprime o JSON no terminal.
+
+
+-----------------------------------
+----- adding-and-saving-notes -----
+-----------------------------------
+Pega os parâmetros, cria um json e grava no arquivo.
+
+----------------------------------------
+----- refactoring-for-reusability -----
+----------------------------------------
+Mesmo do exemplo anterior, só que refatorado.
+
+
+------------------------------
+----- removing-a-note -----
+------------------------------
+Remove uma note do json e grava o novo array no arquivo.
+
+
+---------------------------------------------
+----- reading-notes-and-reusability -----
+---------------------------------------------
+Método para pesquisar uma note.
+var getNote = (title) => {...}
+
+---------------------------------------------
+----- debugging-nodejs-applications -----
+---------------------------------------------
+debugger; usando o terminal
+node inspect app.js
+debug> c, debug> n, debug> repl
+
+
+---------------------------------------------
+----- debugging-via-chrome-dev-tools -----
+---------------------------------------------
+node --inspect-brk app.js
+
+
+-------------------------
+----- listing-notes -----
+-------------------------
+Lista todas as notes.
+
+
+--------------------------------------------------
+----- requiring-arguments-advanced-yargs -----
+--------------------------------------------------
+cria "help" para os comandos.
+node app.js --help
+node app.js add --help
+
+
+------------------------------
+----- arrow-functions -----
+------------------------------
+Diferença entre arrow function e regular function.
+this e arguments.
+
+
+

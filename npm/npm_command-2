@@ -1,0 +1,2 @@
+//--save salva a dependência no package.json
+npm install <nomeBiblioteca> --save

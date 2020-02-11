@@ -1,0 +1,69 @@
+{
+  "trafficFiles": [
+    {
+      "sender": "4075567",
+      "receiver": "1578582",
+      "docType": "TST004",
+      "type": "EXTRATO",
+      "trkId": 201904020000001,
+      "fileSize": 2879,
+      "sendDate": "02/04/2018 11:48:17",
+      "retrievalDate": null,
+      "docQuantity": null,
+      "fileNameIn": "/data/fornax/tofeg/4075567@1578582@TST004@54654654",
+      "fileNameOut": null
+    },
+    {
+      "sender": "4075566",
+      "receiver": "1578582",
+      "docType": "TST004",
+      "type": "EXTRATO",
+      "trkId": 201904020000001,
+      "fileSize": 2879,
+      "sendDate": "02/04/2019 11:48:17",
+      "retrievalDate": null,
+      "docQuantity": null,
+      "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+      "fileNameOut": null
+    },
+    {
+      "sender": "4075566",
+      "receiver": "1578582",
+      "docType": "TST004",
+      "type": "EXTRATO",
+      "trkId": 201904020000002,
+      "fileSize": 2879,
+      "sendDate": "02/04/2019 11:51:40",
+      "retrievalDate": null,
+      "docQuantity": null,
+      "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+      "fileNameOut": null
+    },
+    {
+      "sender": "4075566",
+      "receiver": "1578582",
+      "docType": "TST004",
+      "type": "EXTRATO",
+      "trkId": 201904020000003,
+      "fileSize": 2879,
+      "sendDate": "02/04/2019 11:55:09",
+      "retrievalDate": null,
+      "docQuantity": null,
+      "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+      "fileNameOut": null
+    },
+    {
+      "sender": "4075566",
+      "receiver": "1578582",
+      "docType": "TST004",
+      "type": "EXTRATO",
+      "trkId": 201904020000004,
+      "fileSize": 2879,
+      "sendDate": "02/04/2019 13:18:16",
+      "retrievalDate": null,
+      "docQuantity": null,
+      "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+      "fileNameOut": null
+    }
+  ]
+}

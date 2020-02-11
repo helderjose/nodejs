@@ -1,0 +1,7 @@
+Passar parâmetro pelo terminal para nossa aplicação (console aplication).
+
+node app.js list
+
+
+Pode passar mais argumentos, é adicionado automaticamente no "process.argv"
+node app.js param1 param2

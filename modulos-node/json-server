@@ -1,0 +1,16 @@
+exemplo na pasta json-server-exemplo
+
+
+json server
+Usa um arquivo JSON com dados mocados para simular um serviço REST.
+https://www.npmjs.com/package/json-server
+https://medium.com/letsboot/the-perfect-mock-backend-to-start-with-an-angular-application-3d751d16614f
+
+npm install --save-dev json-server
+
+./node_modules/.bin/json-server --version
+./node_modules/.bin/json-server --help
+./node_modules/.bin/json-server --watch ./mock/db.json --port 3004
+
+mudar o id para usar no get
+./node_modules/.bin/json-server --watch ./mock/db.json --port 3004 --i name

@@ -1,0 +1,12 @@
+===== comando para o exemplo =====
+npm install
+npm test
+npm run test-watch
+
+
+===== explicação exemplo =====
+- utils.test.js
+pesquise por "describe"
+
+- server.test.js
+pesquise por "describe"

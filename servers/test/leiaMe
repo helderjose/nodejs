@@ -1,0 +1,13 @@
+http://expressjs.com/
+- npm install   //se já existir o package.json
+
+// se não existir o package.json
+- npm init		//enter para aceitar o default - cria o package.json
+- npm install express@4.14.0 --save
+- crie o arquivo: server.js
+
+Comando no terminal
+nodemon server.js
+localhost:3000
+
+./node_modules/nodemon/bin/nodemon.js server.js 

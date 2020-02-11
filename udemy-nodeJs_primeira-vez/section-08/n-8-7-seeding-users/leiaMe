@@ -1,0 +1,12 @@
+start o ambiente para testar
+
+----- comandos do exemplo -----
+npm test
+
+
+----- explicação do exemplo -----
++ tests/server.test.js
+    - pesquise por "beforeEach"
+
++ tests/seed/seed.js
+    - o arquivo inteiro é referente a esse exemplo

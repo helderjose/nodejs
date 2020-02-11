@@ -1,0 +1,115 @@
+----------  ----------
+
+---------- Creating a Test Database - n-7-28-test-database ----------
+
+---------- Testing PATCH /todo/:id - n-7-27-testing-update-todo ----------
+
+
+---------- Updatin a Resource - PATCH /todos/:id - n-7-26-update-todo  ----------
+
+
+
+---------- Teting DELETE /todos/:id - n-7-25-testing-delete-todo  ----------
+
+
+
+---------- Delete a Resource - DELETE /todos/:id - n-7-24-delete-todo  ----------
+
+
+
+---------- Postman Environments  ----------
+- Cria environments no postman (local, dev e prod por exemplo)
+- Não fiz no meu, assistir de novo para fazer
+
+
+---------- Deploy API to Heroku - n-7-22-deploy-to-heroku ----------
+- não fiz a prática, assistir de novo e fazer.
+
+
+---------- Testing GET /todos/:id - n-7-21-testing-get-todo  ----------
+- test case no server.test.js
+
+
+---------- Getting an Individual Resource - GET /todos/:id - n-7-20-get-single-resource  ----------
+- pega um "todo" pelo id
+
+
+---------- Mongoose Queries and ID Validation - n-7-19-queries-and-id-validation ----------
+Cria várias queries no mongoose.
+
+
+---------- Testing GET /todos - n-7-18-test-get-todos ----------
+Cria o test do 	GET /todos no server.test.js
+
+
+
+---------- List Resources - GET /todos - n-7-17-get-todos ----------
+- Cria o método GET /todos
+- cria get e post no postman
+
+
+
+---------- Testing POST /todos - n-7-16-test-post-todos ----------
+Cria um arquivo de test para /todos "server.test.js"
+
+
+---------- Resource Creation Endpoint - POST /todos - n-7-15-post-todos ----------
+- cria um endpoint /todos
+- faz um post com o postman
+
+
+
+---------- Installing Postman ----------
+- já tinha instalado.
+
+---------- Validators, Types and Defaults - n-7-13-schemas ----------
+- validação das variáveis.
+http://mongoosejs.com/docs/validation.html
+http://mongoosejs.com/docs/guide.html
+
+---------- Setting Up Mongoose - n-7-12-mongoose-setup ----------
+- exemplo mongoose
+
+---------- The Mongoose ORM ----------
+- Object Relational Maping (mongodb object modeling for node.js)
+- não tem nada.
+
+---------- Updatind Data - n-7-10-updating-documents  ----------
+- findOneAndUpdate, $set, $inc
+
+
+
+---------- Deleting Documents - n-7-9-deleting-documents  ----------
+- deleteMany, deleteOne, findOneAndDelete
+
+
+---------- Setting Up The Repo - n-7-8-git ----------
+- só mostra como criar um repositório para o projeto.
+
+
+---------- Fetching Data - n-7-7-fetching-data ----------
+- find()
+- find().count()
+
+
+---------- The ObjectId - n-7-6-objectid ----------
+- mostra como o mongo gera id
+
+
+---------- Connecting to Mongo and Writing Data - n-7-5-connect-write ----------
+https://github.com/mongodb/node-mongodb-native
+http://mongodb.github.io/node-mongodb-native/
+
+
+
+---------- Building a NoSQL Vocabulary ----------
+- Não tem nada.
+
+
+---------- Installing MongoDB and Robomongo (Windows) ----------
+- Pulei esse vídeo porque estou no Linux.
+
+
+---------- Installing MongoDB and Robomongo (mac, linux) ----------
+- Instala o MongoDB
+- Instala o Robomongo

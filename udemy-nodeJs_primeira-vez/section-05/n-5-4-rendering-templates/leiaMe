@@ -1,0 +1,18 @@
+http://localhost:3000/
+http://localhost:3000/about
+
+
+
+
+http://handlebarsjs.com/
+https://www.npmjs.com/package/hbs
+npm install hbs@4.0.0 --save
+
+
+
+---- no server.js -----
+- pesquise po "hbs" para ver onde é usado.
+- olhe o app.get de "/about"
+
+
+----- /views/* -----

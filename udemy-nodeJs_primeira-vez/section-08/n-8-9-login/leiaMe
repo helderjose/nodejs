@@ -1,0 +1,15 @@
++ server/server.js
+    - "app.post('/users/login'"
+
++ models/user.js
+    - "UserSchema.statics.findByCredentials"
+
+
+--- comandos ---
+- inicie o ambiente com os comandos do arquivo "comandos-uteis";
+npm install
+nodemon server/server.js
+- teste usando o postman:
+    criar um user com POST /users
+    logar com o usuário criado no passo anterior, POST /users/login  (localhost:3000/users/login), se mudar o user ou o pass, deve dar 400
+    

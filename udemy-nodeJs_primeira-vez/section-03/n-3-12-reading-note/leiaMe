@@ -1,0 +1,4 @@
+teste:
+
+node app.js read --title="something here"   //not found (não tem uma note com esse título)
+node app.js read --title="to buy"

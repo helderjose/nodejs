@@ -1,0 +1,12 @@
+node -v
+node --version
+
+node -h
+node --help
+
+node //abre o "ambiente" node para executar comando javascript.
+node arquivo.js		//executa os comandos do arquivo.js
+
+
+
+

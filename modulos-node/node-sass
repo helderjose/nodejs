@@ -1,0 +1,27 @@
+https://www.npmjs.com/package/node-sass
+https://www.npmjs.com/package/node-sass?activeTab=versions
+
+Se der erro ao executar uma tarefa com node-sass, verifique se está instalado global.
+
+npm init
+npm install node-sass --save-dev
+* crie um arquivo index.scss
+./node_modules/.bin/node-sass index.scss index.css  //sem -g na instalacao do node-sass
+
+
+
+npm init
+npm install node-sass -g
+* crie um arquivo index.scss
+node-sass index.scss index.css  //com -g na instalacao do node-sass
+
+
+----- compilar todos os arquivos .scss -----
+Compila todos os arquivos .scss do diretório atual e subdiretório
+
+node-sass ./ -o ./
+-o, --output 		Output directory.
+
+----- watch -----
+node-sass -w ./ -o ./
+-w, --watch		Watch a directory or file.

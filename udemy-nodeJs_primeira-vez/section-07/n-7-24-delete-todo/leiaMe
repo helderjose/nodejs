@@ -1,0 +1,4 @@
++ playground/mongoose-remove.js
+
++ server.js
+    - pesquise por "app.delete('/todos/:id'"

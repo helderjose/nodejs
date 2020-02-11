@@ -1,0 +1,62 @@
+----------  ----------
+
+Web Servers and Applicaiton Deployment
+
+
+
+---------- Adding a New Feature and Deploying - n-5-10-workflow-test  ----------
+- página projects.hbs
+
+
+
+
+---------- Deploying Your Apps - n-5-9-deploying  ----------
+- Deploy application: https://www.heroku.com/
+- criar uma conta free
+- https://devcenter.heroku.com/articles/heroku-cli
+- https://blog.heroku.com/the_heroku_toolbelt
+curl https://cli-assets.heroku.com/install.sh | sh		//nao instalou, estou usando uma pasta na opt/heroku
+- olhar comando no arquivo leiaMe do projeto
+- tem que adicionar uma ssh key publica, não fiz por enquanto, assistir esse víde depois e o do ssh key github tbm.
+
+
+
+
+---------- Setting Up GitHub & SSH Keys - n-5-8-heroku-github  ----------
+gerar ssh key gitHub, não fiz esse exemplo
+
+
+
+
+---------- Adding Version Control (Git) - n-5-7-git ----------
+https://git-scm.com/
+- só falou um pouco sobre git, nada de mais, e não mexeu no código da aplicação
+
+
+---------- Express Middleware - n-5-6-middleware ----------
+- server.log
+- views/maintenance.hbs
+- ${req.method} ${req.url}
+
+
+
+---------- Advanced Templating - n-5-5-advanced-templates  ----------
+- template parcial como footer, header e etc
+- hbs.registerHelper
+
+---------- Rendering Templates with Data - n-5-4-rendering-templates  ----------
+
+html dinâmico com hbs
+
+
+---------- Creating a Web Server - n-5-3-static-server ----------
+Cria o diretório "public" e configura no server.js
+http://localhost:3000/help.html
+
+
+---------- Hello Express - n-5-2-hello-express ----------
+http://expressjs.com/
+- crie a pasta para colocar os arquivos do web server
+- npm install
+- npm init		//enter para aceitar o default - cria o package.json
+- npm install express@4.14.0 --save

@@ -1,0 +1,17 @@
+npm i bcryptjs@2.3.0 --save
+
+https://www.npmjs.com/package/bcryptjs
+http://mongoosejs.com/docs/middleware.html
+
+
+--- explicação exemplo ---
++ playground/hashing.js
+    - pesquise por "bcryptjs"
+
++ models/user.js
+    - "UserSchema.pre" (olhe a documentação do "pre" no site do mongoosejs)
+
+
+--- testar a aplicação ---
+postman
+    - POST /users (faça um post, altere a senha e faça outro post)

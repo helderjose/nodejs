@@ -1,0 +1,10 @@
+===== comandos para criar projeto novo =====
+npm install express@4.14.0 --save
+
+===== comandos para executar o exemplo =====
+npm install
+node server/server.js
+
+
+===== anotações do exemplo =====
+server.js

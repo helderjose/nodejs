@@ -1,0 +1,10 @@
+===== mongo =====
+start up the mongo server
+cd /opt/mongodb-linux-x86_64-rhel70-3.6.5/bin && ./mongod --dbpath ~/mongo-data
+
+abre o cli para comandos mongo
+cd /opt/mongodb-linux-x86_64-rhel70-3.6.5/bin && ./mongo
+
+com o mongo server no ar: Ferramenta robomongo para gerenciar o banco
+cd /opt/robo3t-1.2.1-linux-x86_64-3e50a65/bin && ./robo3t
+

@@ -1,0 +1,3 @@
+teste:
+node app.js add --title=secret --body="Some body here"
+node app.js add --title=secret2 --body="Some body here

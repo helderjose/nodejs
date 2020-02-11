@@ -1,0 +1,47 @@
+Nesse exemplo:
+Debug pelo chrome.
+
+node v8.1.2 or greater
+node -v
+nvm install v8.1.2
+nvm alias default v8.1.2
+
+https://nodejs.org/en/docs/inspector
+
++ debugging.js
++ app.js
+    - "debugger;"
+
+debugger; //break point, começa debugar aqui, se tirar, debuga desde o começo
+
+
+Teste: siga os seguintes passos.
+
+node --inspect-brk debugging.js
+- abra o chrome e acesse: chrome://inspect
+- clique no link: "open dedicated DevTool for Node"
+- BD -> Evaluate in Console: abre o console para mexer nas variáveies
+- no console faça o seguinte:
+person
+person.age = person.age + 100
+person
+- clique no botão de play "azul"    // vai parar na linha "debugger;"
+person
+- no terminal ctrl + c
+
+
+
+npm install nodemon -g
+nodemon --inspect-brk debugging.js
+- abra o chrome e acesse: chrome://inspect
+- clique no link: "open dedicated DevTool for Node"
+- ao alterar o debugging.js e salvar, o debug é atualizado sozinho.
+
+
+
+---- debug do chrome (ferramenta para debugar do navegdor) -----
+- colocar mais break point basta clicar no número da linha. (isso no navegador);
+- Quando o código terminar, não precisa ficar acessando a url de novo para testar
+novamente, ela atualiza sozinha quando o código chegar no debugger; de novo.
+
+

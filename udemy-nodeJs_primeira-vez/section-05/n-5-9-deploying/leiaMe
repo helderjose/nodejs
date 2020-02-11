@@ -1,0 +1,23 @@
+https://www.heroku.com/
+
+
+----- comando heroku -----
+assistir esse vídeo de novo para fazer tudo, pulei essa parte
+
+cd /opt/heroku-linux-x64/heroku/bin/
+./heroku --help
+./heroku login
+
+/opt/heroku-linux-x64/heroku/bin/heroku --help
+/opt/heroku-linux-x64/heroku/bin/heroku create
+
+
+
+----- atualizações desse projeto -----
+
+--- server.js ----
+const port = process.env.PORT || 3000;
+
+--- package.json ---
+comando "start"
+npm start   //chama o comando start do package.json

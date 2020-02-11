@@ -1,0 +1,11 @@
++ server.js
+    - criação do app.get('/todos'
+
+
+===== comandos =====
+- inicie o mongo
+- inicie o robomongo
+npm install
+node server/server.js
+
+- Abra o Postman e faça um GET para: localhost:300/todos

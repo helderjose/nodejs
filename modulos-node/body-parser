@@ -1,0 +1,5 @@
+# body-parser
+https://www.npmjs.com/package/body-parser
+
+Faz parse do body da requisição http (dados do formulário por exemplo) e também faz
+parse de JSON.

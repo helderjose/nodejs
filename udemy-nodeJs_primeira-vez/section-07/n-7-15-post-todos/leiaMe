@@ -1,0 +1,31 @@
+==== exemplo =====
+- mongoose.js
+
+- server.js
+  + usa o mongoose aqui;
+  + post para "/todos";
+
+  - models
+
+===== comandos e passos para executar o exemplo =====
+- iniciar o mongo;
+- iniciar o robomongo;
+
+npm install
+node server/server.js
+
+- no postman criar um post da seguinte maneira
+localhost:3000/todos
+na aba body marque raw e selecione JSON(application/json) no dropdown
+{
+  "text": "This is from postman"
+}
+clique em send
+
+
+===== módulos usados no exemplo =====
+npm install express@4.14.0 --save
+npm install body-parser@1.15.2 --save
+
+links
+httpstatuses.com

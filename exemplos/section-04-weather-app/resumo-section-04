@@ -1,0 +1,28 @@
+-------------------------
+----- Async Basics -----
+-------------------------
+console.log com e sem setTimeout para ver
+a ordem de execução
+
+
+
+-----------------------------------
+----- call-stack-event-loop -----
+-----------------------------------
+Teoria do exemplo anterior (assistir quando estiver estudando teoria).
+
+
+
+
+-----------------------------------
+----- callback-functions-apis -----
+-----------------------------------
+Callback function com setTimeout para simular uma chamada ao server.
+Chama a api do google maps usando callback function.
+
+
+-----------------------------------
+----- pretty-printing-objects -----
+-----------------------------------
+Só imprime um JSON usando stringfy.
+JSON.stringfy(myJson, undefined, 2);  //imprime o json com todos os campos expandidos

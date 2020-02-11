@@ -1,0 +1,27 @@
+Ambiente SASS com Nodejs.
+Explicação dos modules nos arquivos de mesmo nome nessa pasta:
+live-server
+node-sass
+npm-run-all
+
+
+npm install live-server -g
+npm install node-sass -g
+npm install npm-run-all -g
+
+
+Obs: se intalar tudo com -g, não preciso desse processo do --save-dev e os "scripts" funcionarão do mesmo modo.
+A vantagem é que não preciso executar o (npm install) e a pasta ".node_modules" não será criada na pasta.
+Cuidado, em um projeto real, deve usar --save-dev para baixar as dependências.
+npm install live-server --save-dev
+npm install node-sass --save-dev
+npm install npm-run-all --save-dev
+
+
+"scripts": {
+  "watch:sass": "node-sass -w index.scss index.css",
+  "devserver": "live-server",
+  "start": "npm-run-all --parallel devserver watch:sass"
+}
+
+npm run start

@@ -1,0 +1,21 @@
+{
+  "senders": null,
+  "receivers": null,
+  "docTypes": null,
+  "types": null,
+  "trkIds": null,
+  "sendDates": null,
+  "retrievalDates": null,
+  "fileNamesIn": null,
+  "fileNamesOut": null,
+  "fileList": [],
+  "page": {
+    "totalElements": 0,
+    "totalPages": 0,
+    "size": 1000,
+    "first": true,
+    "last": true,
+    "next": false,
+    "previous": false
+  }
+}

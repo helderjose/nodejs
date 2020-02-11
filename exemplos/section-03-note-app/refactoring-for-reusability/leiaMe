@@ -1,0 +1,9 @@
+npm install
+
+testes:
+node app.js add --title="to buy" --body="food"
+node app.js add --title="to buy from store" --body="food"
+
+
+Nesse exemplo:
+Mesmo código do exemplo anterior, só que refatorado.

@@ -1,0 +1,51 @@
+query params vs path params
+
+https://stackoverflow.com/questions/14417592/node-js-difference-between-req-query-and-req-params
+-------------------------------------
+
+
+parametro na url
+
+
+por query param
+router.get('/technician/v1/service-window', serviceWindow.get);
+http://localhost:9095/technician/v1/service-window?gw-app-key=2251d8c0a94601364c54000d3ac06d76
+
+console.log("req.params: ", req.params) // {}
+console.log("req.query: ", req.query) // { 'gw-app-key': '2251d8c0a94601364c54000d3ac06d76' }
+
+
+// http://localhost:9095/technician/v1/service-window?gw-app-key=2251d8c0a94601364c54000d3ac06d76
+
+ axios
+    .get("http://localhost:9095/technician/v1/service-window,{
+      params: {
+          "gw-app-key": "123123
+        },
+        headers: {
+          // "x-wcp-token": __CRIPTOPROPERTY__
+          // "x-wcp-token": Cookies.get("sessionCookie")
+        }
+    })
+    .then(setDates.bind(this))
+    .catch(showError.bind(this));
+
+para essa chamada o router.get deve ser: router.get('/technician/v1/service-window', serviceWindow.get);
+perceba que a url do axios.get é igual a da router.get
+
+
+por path params
+router.get('/technician/v1/service-window/:gw-app-key', serviceWindow.get);
+
+axios
+  .get("http://localhost:9095/technician/v1/service-window?gw-app-key=123123",{
+      headers: {
+        // "x-wcp-token": __CRIPTOPROPERTY__
+        // "x-wcp-token": Cookies.get("sessionCookie")
+      }
+  })
+  .then(setDates.bind(this))
+  .catch(showError.bind(this));
+
+
+Note que nos dois exemploa a url do axios.get deve ser igual a do router.get, caso contrário dará 404

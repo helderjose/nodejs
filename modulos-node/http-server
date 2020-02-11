@@ -1,0 +1,8 @@
+https://www.npmjs.com/package/http-server
+No site tem explicação e parâmetros.
+
+npm install http-server -g
+
+Development:
+npm i
+node bin/http-server

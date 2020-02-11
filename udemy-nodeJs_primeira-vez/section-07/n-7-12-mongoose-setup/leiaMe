@@ -1,0 +1,14 @@
+http://mongoosejs.com/
+http://mongoosejs.com/docs/guide.html
+
+
+===== comandos projeto novo =====
+npm install mongoose@4.5.9 --save
+
+===== comandos do exemplos =====
+npm install
+node server/server.js
+
+
+===== explicação do exemplo =====
+- server/server.js: pesquise por "mongoose"

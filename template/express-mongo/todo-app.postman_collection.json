@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "1e0b78b6-5f2b-4d1f-985c-56d8df7ec23d",
+		"name": "todo-app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/todos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "description",
+							"value": " Estudar NodeJS",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:3003/api/todos"
+			},
+			"response": []
+		},
+		{
+			"name": "api/todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3003/api/todos/"
+			},
+			"response": []
+		},
+		{
+			"name": "api/todos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3003/api/todos/5cedbd9ea4dce11d7349e305"
+			},
+			"response": []
+		},
+		{
+			"name": "api/todos/todoId",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "done",
+							"value": " true",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://localhost:3003/api/todos/5cedbdaea4dce11d7349e306"
+			},
+			"response": []
+		}
+	]
+}

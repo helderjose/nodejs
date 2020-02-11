@@ -1,0 +1,11 @@
++ tests/server.test.js
+    - pesquise por "codigo desse exemplo"
+
+
+
+
+----- comandos -----
+- inicie o ambiente de acordo com o arquivo "comandos-uteis"
+- inicie o server.js
+- npm install
+- npm test

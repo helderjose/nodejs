@@ -1,0 +1,9 @@
+{
+  "trafficFiles": {
+    "page": 0,
+    "dueDateFrom": "2019-04-22",
+    "dueDateTo": "2019-04-22",
+    "sizeByPage": 1000,
+    "tenda-dashboard-servicoId": "trafficFiles"
+  }
+}

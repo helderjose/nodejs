@@ -1,0 +1,90 @@
+
+{
+  "trafficFiles": {
+    "senders": { "4075566": "4075566" },
+    "receivers": { "1578582": "1578582" },
+    "docTypes": ["TST004"],
+    "types": ["EXTRATO"],
+    "trkIds": [
+      201904020000001,
+      201904020000002,
+      201904020000003,
+      201904020000004
+    ],
+    "sendDates": [
+      "02/04/2019 11:48:17",
+      "02/04/2019 11:51:40",
+      "02/04/2019 11:55:09",
+      "02/04/2019 13:18:16"
+    ],
+    "retrievalDates": [],
+    "fileNamesIn": ["/data/fornax/tofeg/4075566@1578582@TST004@54654654"],
+    "fileNamesOut": [],
+    "fileList": [
+      {
+        "sender": "4075566",
+        "receiver": "1578582",
+        "docType": "TST004",
+        "type": "EXTRATO",
+        "trkId": 201904020000001,
+        "fileSize": 2879,
+        "sendDate": "02/04/2019 11:48:17",
+        "retrievalDate": null,
+        "docQuantity": null,
+        "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+        "fileNameOut": null
+      },
+      {
+        "sender": "4075566",
+        "receiver": "1578582",
+        "docType": "TST004",
+        "type": "EXTRATO",
+        "trkId": 201904020000002,
+        "fileSize": 2879,
+        "sendDate": "02/04/2019 11:51:40",
+        "retrievalDate": null,
+        "docQuantity": null,
+        "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+        "fileNameOut": null
+      },
+      {
+        "sender": "4075566",
+        "receiver": "1578582",
+        "docType": "TST004",
+        "type": "EXTRATO",
+        "trkId": 201904020000003,
+        "fileSize": 2879,
+        "sendDate": "02/04/2019 11:55:09",
+        "retrievalDate": null,
+        "docQuantity": null,
+        "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+        "fileNameOut": null
+      },
+      {
+        "sender": "4075566",
+        "receiver": "1578582",
+        "docType": "TST004",
+        "type": "EXTRATO",
+        "trkId": 201904020000004,
+        "fileSize": 2879,
+        "sendDate": "02/04/2019 13:18:16",
+        "retrievalDate": null,
+        "docQuantity": null,
+        "fileNameIn": "/data/fornax/tofeg/4075566@1578582@TST004@54654654",
+        "fileNameOut": null
+      }
+    ],
+    "page": {
+      "totalElements": 4000,
+      "totalPages": 1000,
+      "size": 1000,
+      "first": true,
+      "last": false,
+      "next": true,
+      "previous": true
+    }
+  },
+  "file": {
+    "file": "dfdfdf"
+  }
+}

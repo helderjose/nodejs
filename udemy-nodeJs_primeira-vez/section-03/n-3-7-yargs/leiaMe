@@ -1,0 +1,6 @@
+npm install yargs@4.7.1
+
+node app.js add --title=secret --body="This is my secret"
+node app.js list
+node app.js read --title accounts
+node app.js remove --title accounts

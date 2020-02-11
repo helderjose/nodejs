@@ -1,0 +1,23 @@
+--- comandos para criar um projeto de teste -----
+- crie uma pasta para o projeto;
+npm init
+npm install mocha@3.0.0 --save-dev
+
+
+----- comandos para usar esse projeto -----
+npm install
+npm test
+
+
+----- passos do exemplo -----
+- utils.js
+Exporta os módulos
+
+- utils.test.js
+Testa os módulos
+
+- package.json
+Olhar o script "test"
+
+no terminal execute:
+npm test

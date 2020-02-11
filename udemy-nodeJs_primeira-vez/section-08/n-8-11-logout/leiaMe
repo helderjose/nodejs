@@ -1,0 +1,18 @@
++ server.js
+    - "app.delete('/users/me/token'"
+
++ user.js
+    - "UserSchema.methods.removeToken"
+
+
+----- teste ----
+- drop o banco no mongo
+- postman:
+    . make ser com: POST /users
+        copie o x-auth do headers da responsta
+    . faça um DELETE passando x-auth e o token como valor. observe que no mongo a variável token ficou vazia.
+
+----- comandos -----
+- start do ambiente (comandos-uteis)
+npm install
+node server/server.js

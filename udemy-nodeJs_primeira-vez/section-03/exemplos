@@ -1,0 +1,67 @@
+---------- Arrow Functions - n-3-17-arrow-functions ----------
+
+
+
+---------- Requiring Arguments and Advanced Yargs - n-3-16-advanced-yargs ----------
+- yargs.command
+
+---------- Listing Notes - n-3-15-listing-notes ----------
+- Listing Notes
+
+
+---------- Debugging via Chrome Dev Tools - n-03-14-v8-update ----------
+
+
+
+---------- Debugging Node.js Applications - n-03-13-v8-update ----------
+- node inspect
+- playground/debugging.js
+- debug e nodemon junto
+node v8.1.2 or greater nesse exemplo
+
+
+
+---------- Reading Notes and Reusability - n-3-12-reading-note ----------
+
+
+
+---------- n-3-11-removing-note - Removing a Note ----------
+- remove uma anotação pelo título passado pelo terminal
+
+
+---------- n-3-10-refactor ----------
+- Refectoring For Reusability
+
+
+---------- n-3-9-adding-note - Adding and Saving Notes ----------
+- salva uma nota no arquivo.
+- valida se a nota já existe antes de salvar
+
+
+---------- n-3-8-json - Working With Json ----------
+- JSON.stringify, JSON.parse e etc.
+- escreve o json em um arquivo.txt
+- lê o arquivo com o json e usa no código
+
+---------- n-3-7-yargs - Simplified Input With Yargs ----------
+passagem de parâmetro po linha de comando
+
+---------- n-3-6-getting-input - Getting Input From User ----------
+- Passar parâmetro para a aplicação (node app.js list) por exemplo.
+
+
+---------- n-3-5-global-modules - Restarting App with Nodemon ----------
+- Global Modules (npm install -g nodemon)
+- restart app when changes file (nodemon).
+
+
+---------- n-3-4-3rd-party-modules - Using 3rd Party Modules ----------
+package.json
+lodash
+
+
+---------- n-3-3-require-own-files - Requiring your own files ----------
+module export
+
+---------- n-3-2-module-basics ----------
+criar arquivo

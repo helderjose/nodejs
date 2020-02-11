@@ -1,0 +1,12 @@
+Não fiz a parte prática, assitir de novo e fazer
+
+
++ server.js
+    pesquise po "Heroku"
+
++ package.json
+    "start": "node server/server.js",   //informa o Heroku onde começa nossa aplicação
+    - execute node -v para pegar a versão do node e altere o arquivo da seguinte maneira:
+    pesquise por "engines"  //informa o Heroku qual versã do node usar
++ mongoose.js
+    - pesquise por "Heroku"

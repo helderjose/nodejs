@@ -1,0 +1,4 @@
+testes:
+
+node app.js add --title="to buy" --body="food"
+node app.js add --title="to buy from store" --body="food"

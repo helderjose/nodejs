@@ -1,0 +1,21 @@
++ app.js
+
+npm install
+
+comandos para testar:
+
+node app.js --help
+node app.js add --help
+node app.js add
+node app.js add -t="flag title" --body="body"
+node app.js add -t=t -b=b
+node app.js list
+node app.js remove -t="t"
+node app.js list
+node app.js remove --title="flag title"
+
+
+
+----- olhar no site para ver o que dá pra fazer com yargs -----
+https://www.npmjs.com/package/yargs
+https://github.com/yargs/yargs/blob/HEAD/docs/api.md

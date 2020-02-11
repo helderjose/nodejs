@@ -1,0 +1,14 @@
+https://github.com/mongodb/node-mongodb-native
+http://mongodb.github.io/node-mongodb-native/
+
+- documentação do driver: http://mongodb.github.io/node-mongodb-native/
+
+
+========== comandos ==========
+npm install mongodb@2.2.5 --save
+npm install
+- inicie o mongo Server antes de executar os comandos abaixo
+node playground/mongodb-connect.js
+
+========== explicação do exemplo ==========
+- playground/mongodb-connect.js

@@ -1,0 +1,24 @@
+comandos:
+
+node --inspect-brk playground/debugging.js
+- abra o chrome e acesse: chrome://inspect
+- clique no link: "open dedicated DevTool for Node"
+- BD -> Evaluate in Console: abre o console para mexer nas variáveies
+- no console faça o seguinte:
+person
+- clique no botão de play "azul"
+person
+- no terminal ctrl + c
+
+
+
+npm install nodemon -g
+nodemon --inspect-brk playground/debugging.js
+- abra o chrome e acesse: chrome://inspect
+- clique no link: "open dedicated DevTool for Node"
+- ao alterar o debugging.js e salvar, o debug é atualizado sozinho.
+
+
+
+---- debug no chrome -----
+- colocar break point clicando no número da linha.

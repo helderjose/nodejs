@@ -1,0 +1,9 @@
+- pasta weather
+- Atualização feita:
+Pega
+
+
+comandos:
+npm install
+node app.js -a 15200
+node app.js -a 'key west fl'

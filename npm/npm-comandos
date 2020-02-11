@@ -1,0 +1,22 @@
+==============================
+========== install ==========
+==============================
+Executar no projeto (onde está o package.json).
+npm install	//download dos modules usados no projeto (no package.json).
+npm i		//i = install
+
+
+
+==============================
+========== list ==========
+==============================
+aliases: list, la, ll
+npm list --help
+npm list --depth 0	//listar os mudules instalados no projeto (shows the current directory’s packages)
+			//--depth = Max display depth of the dependency tree.
+npm list -g --depth 0	//Listar os modules instalados com -g (global)
+npm list -g --depth=0 2 > /dev/null	//ignore pointless errors by redirectiong them to /dev/null
+
+
+
+

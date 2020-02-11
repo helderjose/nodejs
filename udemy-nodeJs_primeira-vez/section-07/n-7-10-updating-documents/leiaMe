@@ -1,0 +1,10 @@
+- mongo-update.js
+
+http://mongodb.github.io/node-mongodb-native/3.0/api/Collection.html#findOneAndUpdate
+https://docs.mongodb.com/manual/reference/operator/update/
+
+
+
+===== comandos =====
+npm install
+node playground/mongodb-update.js

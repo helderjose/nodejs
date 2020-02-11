@@ -1,0 +1,5 @@
++ tests/server.test.js
+    - "describe('DELETE /users/me/token'"
+
+
+npm test

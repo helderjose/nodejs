@@ -1,0 +1,7 @@
+no arquivo package.json (gerado com npm init), adicione a linha
+"scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  }
+
+no terminal:
+npm run compile:sass

@@ -1,0 +1,18 @@
+npm install -g nodemon
+nodemon app.js
+
+
+Teste:
+npm install -g nodemon
+nodemon app.js
+altere o app.js e salve, será recarregado pelo nodemon.
+
+
+nodemon
+olha o arquivo npm-modules
+
+Instalação nodemon:
+npm install -g nodemon  //-g consigo usar nodemon sem estar no package.json
+
+comandos:
+nodemon app.js

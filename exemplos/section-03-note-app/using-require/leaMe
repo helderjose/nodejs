@@ -1,0 +1,5 @@
+https://nodejs.org/api
+Usa a palavra reservada "require" para usar os módulos.
+Usa módulos do nodeJs como "os - operating system" e "fs file system".
+
+node app.js

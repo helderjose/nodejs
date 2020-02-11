@@ -1,0 +1,11 @@
++ models/user.js
+    - UserSchema
+
+
+O módulo lodash permite usar o "_.pick".
+
+
+----- teste -----
+- inicie as ferramentas do arquivo comandos-uteis
+- use o postman e use o arquivo "POST /users";
+    * clique no header da resposta para ver a variável x-auth

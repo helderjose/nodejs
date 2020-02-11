@@ -1,0 +1,6 @@
+partials
+hbs.registerHelper
+
+
+----- comandos -----
+nodemon server.js -e js,hbs   //-e extension

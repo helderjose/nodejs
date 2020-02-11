@@ -1,0 +1,15 @@
++ app.js
++ notes.js
+
+npm install
+
+teste:
+node app.js add --title="secret" --body="food"
+node app.js add --title="secret2" --body="food"
+
+node app.js remove --title=secret2
+
+
+
+Nesse exemplo:
+Remove uma note do json e grava o novo array no arquivo.

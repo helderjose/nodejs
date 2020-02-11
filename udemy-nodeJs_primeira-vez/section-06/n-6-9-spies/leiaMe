@@ -1,0 +1,15 @@
+==== comandos para o projeto =====
+npm install
+npm run test-watch
+
+=== projeto novo ====
+npm install rewire@2.5.2 --save-dev
+
+===== anotações exemplo =====
+- spies/app.s
+
+- spies/db.js
+
+- spies/app.test.js
+procure por "createSpy", "spy", "rewire"
+Olhe a documentação do módulo expect

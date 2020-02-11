@@ -1,0 +1,18 @@
+nvm --help
+nvm current
+nvm ls
+nvm ls-remote
+nvm install v8.9.4  //(versão desejada)
+nvm alias default v8.9.4 //(versão desejada)
+
+
+----- mudar versão do node -----
+nvm current //versão atual.
+nvm ls //lista as versões já usadas.
+nvm ls-remote //lista as versões disponíveis para instalação.
+nvm install v8.9.4  //(versão desejada). Faz o download da versão e instala no terminal atual.
+nvm alias default v8.9.4 //(versão desejada). Seta como default. Precisa do (nvm install v8.9.4) antes.
+//abra outro terminal e verifique qual versão está sendo usada. Talvez seja necessário reiniciar o terminal.
+
+
+

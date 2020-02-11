@@ -1,0 +1,20 @@
+https://github.com/mjackson/expect
+
+
+===== comandos para criar um projeto novo =====
+npm install expect@1.20.2 --save-dev
+
+
+===== comandos para executar esse projeto ====
+npm install
+
+
+===== explicação projeto =====
+- package.json
+
+- utils.js
+Novo módulo para testar o exemplo
+
+- utils.test.js
+pesquise por "expect"
+Olhe a documentação do expect para usar suas funções como "toBe" e etc

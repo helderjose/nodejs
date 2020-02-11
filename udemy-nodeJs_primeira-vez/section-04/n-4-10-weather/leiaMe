@@ -1,0 +1,14 @@
+forecast.io
+https://darksky.net/forecast/
+
+Crie uma conta grátis para usar no exemplo
+https://darksky.net/dev
+Usar a API Key na applicação
+
+https://darksky.net/dev/docs
+
+
+
+------ comandos -----
+npm install
+node app.js -a 19146

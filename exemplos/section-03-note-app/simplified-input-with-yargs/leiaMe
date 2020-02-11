@@ -1,0 +1,14 @@
+Esse exemplo é uma console application usando yargs para pegar os parâmetros.
+
+http://yargs.js.org/
+https://github.com/yargs/yargs
+Facilita pegar os parâmetros passados pelo terminal (console application).
+
+
+npm install yargs@4.7.1 --save
+npm install
+
+node app.js add --title=secret --body="This is my secret"
+node app.js list
+node app.js read --title accounts
+node app.js remove --title accounts

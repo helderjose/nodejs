@@ -1,0 +1,20 @@
++ models/todo.js
+    - "_creator"
++ tests/deed/seed.js
+    - "_creator"
++ server.js
+    - "app.post('/todos', authenticate, (req, res)" adicionou o _creator
+
+
+
+--- comandos ---
+- start do ambiente "comandos-uteis"
+- npm install
+- nodemon server/server.js
+
+--- testar o exemplo ---
+- drop database mongo
+- postman:
+    . POST /users (criar um usuário)
+        pegue o token no headers da resposta "x-auth"
+    . POST /todos   (criar um todo)

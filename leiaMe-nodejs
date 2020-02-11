@@ -1,0 +1,9 @@
+A runtime environment for executing javascript code outside the browser.
+
+npm
+Node Package Manager: to install third party libraries.
+
+
+Packages
+Angular CLI (Command-line Interface)
+command line toot that we use to create a new angular project or generate some boilerplate.

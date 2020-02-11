@@ -1,0 +1,12 @@
+https://jwt.io/
+    - jwt.sign(data, '123abc');, no campo "verify signature" do site use o '123abc' para dar token válido
+
+npm install crypto-js@3.1.6 --save
+npm install jsonwebtoken@7.1.9 --save
+
+
+npm install
+node playground/hashing.js
+
+----------
++ playground/hashing.js

@@ -1,0 +1,13 @@
+http://expressjs.com/en/4x/api.html#req
+
+server.log
+views/maintenance.hbs
+
+---- server.js -----
+app.use((req, res, next) => {...
+${req.method} ${req.url}
+
+
+
+--- comandos ----
+nodemon server.js

@@ -1,0 +1,94 @@
+----- lodash -----
+https://www.npmjs.com/package/lodash
+https://lodash.com/
+https://lodash.com/docs
+Lodash makes JavaScript easier by taking the hassle out of working with arrays, numbers, objects, strings, etc
+Olhar documentação, tem várias funções como _.isString e etc
+
+
+----- nodemon -----
+watch file: restart app when change file
+https://www.npmjs.com/package/nodemon
+npm install -g nodemon   //-g, global na máquina e não no projeto, consigo executar sem estar no package.json
+npm install --save-dev nodemon
+nodemon server.js -e js,hbs   //-e extension
+
+
+----- pm2 -----
+http://pm2.keymetrics.io/
+Estilo o nodemon, só que mais robusto, dá pra ver consumo de memória, processador e etc.
+se não intalar o pm2 de forma global, faça o seguinte
+./node_modules/.bin/pm2 monit
+./node_modules/.bin/pm2 status
+
+----- yargs -----
+http://yargs.js.org/
+https://github.com/yargs/yargs
+Facilita pegar os parâmetros passados pelo terminal (console application).
+npm install yargs@4.7.1 --save
+
+----- request -----
+https://www.npmjs.com/package/request
+Simplified HTTP request client.
+
+
+----- axios -----
+https://www.npmjs.com/package/axios
+- Make XMLHttpRequests from the browser
+- Make http requests from node.js
+- Supports the Promise API
+- Intercept request and response
+- Transform request and response data
+- Cancel requests
+- Automatic transforms for JSON data
+- Client side support for protecting against XSRF
+
+----- handlebars -----
+http://handlebarsjs.com/
+npmjs.com/package/hbs
+Página html dinâmica, .hbs
+npm install hbs@4.0.0 --save
+
+
+----- mocha -----
+https://mochajs.org/
+Framework para test de software. Roda no NodeJs
+npm install mocha@3.0.0 --save-dev
+
+----- expect -----
+https://github.com/mjackson/expect
+Biblioteca de assertivas para teste.
+npm install expect@1.20.2 --save-dev
+
+
+----- supertest -----
+supertest@2.0.0 --save-dev
+
+----- rewire -----
+npm install rewire@2.5.2 --save-dev
+
+
+----- mongoose -----
+http://mongoosejs.com/
+- Object Relational Maping (mongodb object modeling for node.js)
+npm install mongoose@4.5.9 --save
+
+----- express -----
+npm install express
+
+----- body-parser -----
+converte json to object
+
+----- angular2-jwt -----
+npm install angular2-jwt --save
+
+
+----- linter = tslint -----
+https://github.com/palantir/tslint
+dev dependence
+
+deixa o código com um padrão, evitando o: var x = '2'; var x = "2"
+
+----- bcryptjs -----
+https://www.npmjs.com/package/bcryptjs
+Optimized bcrypt in JavaScript with zero dependencies

@@ -1,0 +1,13 @@
+===== comandos executar exemplo =====
+npm install
+npm run test-watch
+
+
+===== comandos para um projeto novo =====
+npm install supertest --save-dev
+npm install supertest@2.0.0 --save-dev
+
+===== anotações do exemplo =====
+https://github.com/visionmedia/supertest
+
+- server.test.js

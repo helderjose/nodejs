@@ -1,0 +1,41 @@
+----------  ----------
+
+Testing Your Applications
+
+
+---------- Test Spies - n-6-9-spies ----------
+
+
+
+
+---------- Organizing Test With describe() - n-6-8-describe ----------
+agrupa os testes.
+
+
+
+---------- Testing Express Application Part 2 - n-6-7-testing-express-2 ----------
+Testa aplicação express
+
+
+---------- Testing Express Applications Part 1 - n-6-6-testing-express ----------
+só criou um server express.
+
+
+---------- Testing Asynchronous Code - n-6-5-async-testing ----------
+
+
+
+---------- Using an Assertion Library - n-6-4-assertion-libraries ----------
+https://github.com/mjackson/expect
+biblioteca assertion para test
+
+
+---------- Watch and Auto Restart Tests - n-6-3-watch-tests  ----------
+nodemon --exec 'npm test'  //comando do package.json
+- Executa o testa automaticamento quando salva um arquivo.
+
+
+
+---------- Mocha and Basic Testing n-6-2-basic-testing  ----------
+- Mocha, framework para teste de software
+https://mochajs.org/

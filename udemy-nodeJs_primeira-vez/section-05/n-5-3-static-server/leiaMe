@@ -1,0 +1,7 @@
+npm install
+nodemon server.js
+
+
+---- Olhar no server.js ----
+app.use(express.static(__dirname + '/public'));
+http://localhost:3000/help.html

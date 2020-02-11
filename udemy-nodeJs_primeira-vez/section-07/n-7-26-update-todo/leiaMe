@@ -1,0 +1,5 @@
+npm install --save lodash@4.15.0
+
++ server.js
+    - pesquise por "lodash"
+    - pesquise por "app.patch('/todos/:id'"

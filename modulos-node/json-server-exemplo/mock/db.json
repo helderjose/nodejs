@@ -1,0 +1,68 @@
+{
+  "user": [
+    {
+      "authorities": [
+        {
+          "authority": "Administrador"
+        }
+      ],
+      "details": null,
+      "authenticated": true,
+      "principal": {
+        "idUsuario": 3,
+        "nome": "Trustion",
+        "idPerfil": 1,
+        "perfil": "Administrador",
+        "autenticado": false,
+        "enabled": true,
+        "modulos": [
+          "numerarios"
+        ],
+        "authorities": [
+          {
+            "authority": "Administrador"
+          }
+        ],
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "password": "**confidential**",
+        "username": "Trustion"
+      },
+      "credentials": "**confidential**",
+      "name": "Trustion"
+    },
+    {
+      "authorities": [
+        {
+          "authority": "Master Transportadora"
+        }
+      ],
+      "details": null,
+      "authenticated": true,
+      "principal": {
+        "idUsuario": 2,
+        "nome": "Elaine",
+        "idPerfil": 2,
+        "perfil": "Master Transportadora",
+        "autenticado": false,
+        "enabled": true,
+        "modulos": [
+          "numerarios"
+        ],
+        "authorities": [
+          {
+            "authority": "Master Transportadora"
+          }
+        ],
+        "accountNonExpired": true,
+        "accountNonLocked": true,
+        "credentialsNonExpired": true,
+        "password": "**confidential**",
+        "username": "elaine"
+      },
+      "credentials": "**confidential**",
+      "name": "elaine"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+npm install
+node callbacks.js
+node app.js
+
+https://www.npmjs.com/package/request
+npm init  //criar package.json
+npm install request@2.73.0 --save
+node app.js
+
+
+Se der erro na aplicação, olhe essa página
+http://links.mead.io/api-fix
+

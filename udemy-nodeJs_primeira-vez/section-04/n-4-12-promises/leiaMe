@@ -1,0 +1,4 @@
+comandos:
+
+npm install
+nodemon playground/promise.js

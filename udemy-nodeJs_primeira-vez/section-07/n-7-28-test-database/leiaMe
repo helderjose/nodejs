@@ -1,0 +1,8 @@
++ config/config.js
+
++ server.js
+    - "require('./config/config');"
++ package.json
+    - olhar a parte de test: 'export' para linux e 'set' para windows
++ server/db/mongoose.js
+    - pesquise po "connect"

@@ -1,0 +1,5 @@
+===== comandos =====
+- inicie o servidor mongo
+- inicie a ferramenta robomongo
+npm install
+node playground/mongodb-connect.js

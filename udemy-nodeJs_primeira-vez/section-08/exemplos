@@ -1,0 +1,71 @@
+models/user.js colocar na linha 48 mais ou menos
+// user.tokens.push({access, token});
+user.tokens = user.tokens.concat([{access, token}]);
+
+---------- Making Todo Routes Private (Part 1) - n-8-13-users-todos-pt-1 ----------
+
+
+
+---------- Testing DELETE /users/me/token - n-8-12-testing-logout ----------
+Testa o serviço de logout (delete token)
+
+
+---------- Logging Out - DELETE /users/me/token - n-8-11-logout ----------
+Cria um serviço para deletar o token (logout)
+
+
+
+---------- Testing POST /users/login - n-8-10-test-login ----------
+Teste automatizado do login do exemplo anterior.
+
+
+---------- Logging In - POST /users/login - n-8-9-login ----------
+Faz um post para criar um usuário.
+Faz um post para logar.
+
+
+---------- Testing POST /users and GET /users/me n-8-8-test-signup ----------
+Cria test case: GET /users/me, POST /users
+
+
+---------- Seeding Test Database With Users - n-8-7-seeding-users ----------
+testes da aplicação
+
+
+---------- Hashing Passwords - n-8-6-hashing-passwords ----------
+Faz criptografia de senha. (criptografar senha)
+
+
+
+---------- Private Routes and Auth Middleware - n-8-5-private-route ----------
+
+
+
+---------- Generating Auth Tokens and Setting Headers - n-8-4-generating-auth-tokens ----------
+- gera um jwt no post;
+- retorna apenas o id e o email do usuário na resposta;
+
+
+---------- JWT and Hashing - n-8-3-jwt ----------
+- usa criptografia no token para chamar um serviço (autenticação);
+- módulos: crypto-js, jsonwebtoken
+
+
+
+---------- Setting Up The User Model -  n-8-2-user-model ----------
+http://mongoosejs.com/docs/validation.html
+https://www.npmjs.com/package/validator
+
+npm install validator@5.6.0 --save
+
++ user.js
+    - validator no e-mail, e outras validações nos campos.
+
++ server.js
+    - "app.post('/users'"
+
+No postman:
+faça um post: POST /users
+    - faça a mesma chamada mais de uma vez para ver o unique do email;
+    - coloque um e-mail inválido para ver o validator;
+    - coloque menos de 6 caracteres na senha para ver o minlength;

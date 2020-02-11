@@ -1,0 +1,11 @@
+Nesse exemplo:
+
+Execussão do projeto:
+npm install
+
+node app.js add --title="to buy" --body="food" &&
+node app.js add --title="to buy from store" --body="food" &&
+node app.js add --title="some title" --body="some body"
+
+node app.js list
+

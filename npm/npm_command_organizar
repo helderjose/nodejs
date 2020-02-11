@@ -1,0 +1,30 @@
+https://docs.npmjs.com/troubleshooting/try-clearing-the-npm-cache
+npm cache clean --force
+npm install npm@latest -g
+
+Alguns modules tem que ser instalado com sudo
+
+------------- criar package.json -------------------------
+npn init	// será criado o arquivo package.json
+
+sudo npm install live-server -g	//live reload. -g o pacote fica disponível para todos os projetos. Não fica no package.json
+live-server	//na pasta do projeto. abre o navegador e já faz o watch do projeto e live reload no navegador
+
+https://www.npmjs.com/package/concat
+npm install concat --save-dev  // concatenate multiple css files
+
+npm install autoprefixer --save-dev  // prefix css
+npm install postcss-cli --save-dev
+
+npm install npm-run-all --save-dev
+
+npm install node-sass --save-dev	//Na pasta onde está o arquivo package.json. Será criado a variável "devDependencies" no package.json
+npm install jquery --save	//Na pasta onde está o arquivo package.json. Será criado a variável "dependencies" no package.json
+npm uninstall jquery --save	//Na pasta onde está o arquivo package.json. Será removida essa dependẽncia do arquivo package.json
+npm install	// instala as dependências do arquivo package.json. A pasta node_modules será baixada.
+
+
+
+------------- ambiente -----------------
+- NodeJs
+- SASS	// npm install node-sass --save-dev

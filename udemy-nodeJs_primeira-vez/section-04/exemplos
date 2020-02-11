@@ -1,0 +1,82 @@
+----------  ----------
+
+Nessa sessão é construído um "weather app" usando APIs externas.
+
+
+
+
+---------- Weather App With Promises - n-4-15-weather-promises  ----------
+- app-promise.js
+- https://www.npmjs.com/package/axios
+
+
+
+
+---------- Advanced Promisses - n-4-14-promises-2 ----------
+- playground/promise.js
+- playground/promise-2.js
+
+
+
+
+---------- Intro to ES6 Promises n-4-12-promises ----------
+- playground/promise.js
+- atualizou geocode.js
+
+
+
+---------- Chaining Callbacks Together - n-4-11-chaining ----------
+- Criou o module wheather.js
+
+
+
+---------- Wiring Up Weather Search n-4-10-weather ----------
+- Usa API do
+https://darksky.net/forecast
+para pegar a temperatura
+
+
+---------- Abstracting Callbacks n-4-9-abstracting-callbacks ----------
+- Separa o código que chama a api google maps no arquivo geocode.js
+- module.exports.geocodeAddress = geocodeAddress;
+
+
+
+---------- Callback Errors n-4-8-geocoding ----------
+- Tratamento de erro ao chamar um serviço.
+
+
+
+---------- Encoding User input - n-4-7-encoding ----------
+- encodeURIComponent('1301 lombard street philadelphia')
+- decodeURIComponent('1301%20lombard%20street%20philadelphia')
+
+
+
+---------- What's Makes up an HTTP Request? - n-4-6-http ----------
+
+
+
+
+---------- Pretty Printing Objects n-4-5-pretty-printing ----------
+JSON.stringify(body, undefined, 2)
+
+
+
+---------- Callback Functions & APIs n-4-4-callbacks ----------
+- playground/callbacks.js
+- Google geolocation API;
+maps.googleapis.com
+- npmjs.com/package/request
+
+
+
+---------- Call Stack & Event Loop ----------
+Assistir ao vídeo abaixo para ver o ciclo de vida
+https://www.udemy.com/the-complete-nodejs-developer-course-2/learn/v4/t/lecture/5525278?start=0
+
+
+
+
+---------- Async Basics - n-4-2-async-basics ----------
+

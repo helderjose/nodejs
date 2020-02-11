@@ -1,0 +1,11 @@
+===== passos para executar o projeto =====
+npm install
+//nodemon --exec 'npm test'
+npm run test-watch
+
+
+===== explicação do exemplo ====
+- Toda vez que salvar um arquivo o teste é executado com nodemon
+- criação do comando "test-watch" no package.json
+- Recomendado usar da seguinte forma por causa do windows:
+"test-watch": "nodemon --exec \"npm test\""

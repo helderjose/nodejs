@@ -1,0 +1,4 @@
+Abra a pasta do projeto no terminal e execute os seguintes comandos.
+npm init    //aperte enter para as perguntas
+npm install lodash --save   //--save atualiza o arquivo package.json
+npm install   //só se o arquivo package.json já existir

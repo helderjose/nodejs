@@ -1,0 +1,4 @@
+node json.js
+
+Cria um JSON, converte para string, escreve a string no arquivo.
+Lê o arquivo, converte para JSON e imprime no terminal.

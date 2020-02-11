@@ -1,0 +1,4 @@
+Use o nvm (Node Version Manage).
+https://github.com/creationix/nvm
+
+O script vai editar o .bashrc, eu tiro do .bashrc e coloco no .accurateProfile

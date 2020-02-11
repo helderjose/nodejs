@@ -1,0 +1,7 @@
+https://www.npmjs.com/package/axios
+http://codeheaven.io/how-to-use-axios-as-your-http-client-pt/
+
+Promise based HTTP client for the browser and node.js.
+Cliente HTTP baseado em promises (faz chamadas http para um serviço).
+Muito usado com React.
+Usei no projeto de exemplo do curso de Redux, projeto "Todo App".

@@ -1,0 +1,6 @@
+No terminal execute os comandos:
+npm install nodemon -g    //-g - global, instala a dependência na máquina e não apenas no projeto
+
+
+abra a pasta do projeto pelo terminal e execute:
+nodemon app.js

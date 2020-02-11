@@ -1,0 +1,6 @@
+npm install
+node arrow-function.js
+
+Arrow function não faz binding do this nem tem acesso ao arguments.
+In general if you don't need the this keyword or the arguments keyword
+you can use an arrow function

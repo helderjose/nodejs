@@ -1,0 +1,14 @@
+server.js
+users.js
+authenticate
+    pesquise por "// funcao desse exemplo"
+
+
+
+========== teste ==========
+- inicie o projeto com os comando do arquivo "comandos-uteis";
+- remova o banco "TodoApp";
+--- postman ---
+- faça um post no postman "POST /users"
+- clique no "headers" da resposta e copie a variável "x-auth"
+- faça um get passando x-auth no "headers"

@@ -1,0 +1,11 @@
++ mongoose-queries.js
+
+
+
+===== comandos =====
+npm install
+nodemon playground/mongoose-queries.js
+
+
+===== observações =====
+Entre no site do mongoose vá na documentação e procure por queries

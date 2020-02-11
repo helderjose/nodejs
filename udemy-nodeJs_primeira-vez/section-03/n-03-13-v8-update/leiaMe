@@ -1,0 +1,47 @@
+node v8.1.2 or greater
+playground/debugging.js
+
+debugger; //break point, começa debugar aqui, se tirar, debuga desde o começo
+
+teste: Execute os seguintes comandos
+
+node playground/debugging.js  //nada vai acontecer
+node inspect playground/debugging.js    //vai abilitar o modo debug>
+debug> list(10)    //exibe 10 linhas
+debug> c    //continue until your program completes.
+--------------------------------------------------
+
+node inspect playground/debugging.js
+debug> n   //
+debug> repl   //repl mode
+> person    //exibe o valor da variável person
+> person.age    //exibe o valor da variável
+> person.age + 100
+> person.age = 100
+ctrl + c    //sai do repl mode e volta para o debug mode
+debug> c    //continua o debug
+--------------------------------------------------
+
+
+use a palavara chave "debugger;" no arquivo debugging.js exetucte os
+seguintes comandos:
+
+node inspect playground/debugging.js
+debug> c
+debug> repl
+ctrl + c
+--------------------------------------------------
+
+inspecionar o app.js
+node inspect app.js read --title="to buy"
+debug> c
+debug> repl
+> note
+ctrl + c  //para sair do repl mode
+debug> c
+--------------------------------------------------
+
+Quando salvar e o nodemon reiniciar a aplicação, já vai fazer o debug
+
+nodemon inspect app.js read --title="to buy"
+debug> c

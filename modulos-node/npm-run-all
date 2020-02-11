@@ -1,0 +1,33 @@
+https://www.npmjs.com/package/npm-run-all
+https://github.com/mysticatea/npm-run-all/blob/HEAD/docs/npm-run-all.md
+
+A CLI tool to run multiple npm-scripts in parallel or sequential.
+Olhar mais explicação no site.
+
+npm install npm-run-all --save-dev
+
+
+Exemplos:
+{
+    "scripts": {
+        "clean": "rimraf dist",
+        "lint":  "eslint src",
+        "build": "babel src -o lib"
+    }
+}
+
+//run scripts sequentially
+npm-run-all clean lint build
+
+//run scripts in parallel
+npm-run-all --parallel lint build
+
+//Run a mix of sequential and parallel scripts
+ npm-run-all a b --parallel c d --sequential e f --parallel g h i
+ or
+ npm-run-all a b --parallel c d --serial e f --parallel g h i
+
+1. First, runs a and b sequentially / serially.
+2. Second, runs c and d in parallel.
+3. Third, runs e and f sequentially / serially.
+4. Lastly, runs g, h, and i in parallel.
