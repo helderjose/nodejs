@@ -18,5 +18,10 @@ npm list -g --depth 0	//Listar os modules instalados com -g (global)
 npm list -g --depth=0 2 > /dev/null	//ignore pointless errors by redirectiong them to /dev/null
 
 
+==============================
+========== outros ==========
+==============================
+npm cache clean --force     // limpar cache
+
 
 
