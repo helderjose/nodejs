@@ -1,0 +1,4 @@
+express
+npm install cors
+https://www.npmjs.com/package/cors
+https://expressjs.com/en/resources/middleware/cors.html
