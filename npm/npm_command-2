@@ -1,2 +1,9 @@
 //--save salva a dependência no package.json
 npm install <nomeBiblioteca> --save
+
+
+// instalar versão específica
+https://stackabuse.com/npm-install-specific-version-of-a-package/
+npm install --save-dev vuelidate@0.7.4
+npm install --save-dev vuelidate@^0.7.4
+npm install --save-dev vuelidate@~0.7.4
